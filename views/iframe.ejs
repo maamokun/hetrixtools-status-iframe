@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HetrixTools irrame</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 200px; /* Adjust the width as needed */
+            height: 50px;
+            border: 2px solid <%= borderColor %>;
+            background-color: <%= bgColor %>;
+            padding: 5px;
+            border-radius: 15px; /* Adding rounded corners */
+        }
+
+        .dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: <%= dotColor %>;
+            margin-left: 10px; /* Adding margin after the dot */
+        }
+
+        .text {
+            font-size: 15px;
+            color: <%= textColor %>;
+            margin-right: 10px; /* Adding margin before the text */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="dot"></div>
+        <div class="text"><%= customText %></div>
+    </div>
+</body>
+</html>

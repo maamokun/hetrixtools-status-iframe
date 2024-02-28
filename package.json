@@ -1,0 +1,19 @@
+{
+  "name": "hetrixtools-renderer",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "got": "^14.2.0",
+    "path": "^0.12.7",
+    "quick.db": "^9.1.7"
+  }
+}
