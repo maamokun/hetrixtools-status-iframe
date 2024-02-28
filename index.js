@@ -21,7 +21,7 @@ if(!process.env.HETRIX_AUTH) {
     process.exit(1);
 }
 if(!process.env.UPDATE_INTERVAL) {
-    console.warn("No Update Interval specified, defaulting to 1 hour");
+    console.warn("No Update Interval specified, defaulting to 6 hours");
 }
 if(!process.env.PORT) {
     console.warn("No Port specified, defaulting to 3000");

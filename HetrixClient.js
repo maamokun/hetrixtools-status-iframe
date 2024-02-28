@@ -38,7 +38,7 @@ export async function ForceUpdateData() {
 
 export function runClient() {
     const key = process.env.HETRIX_KEY;
-    const interval = process.env.UPDATE_INTERVAL || 3600000;
+    const interval = process.env.UPDATE_INTERVAL || 21600000;
 
     console.log(`Starting HetrixTools client with key: ${key} and interval: ${interval}ms`);
 
